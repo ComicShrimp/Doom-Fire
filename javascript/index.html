@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,16 @@
   <title>DOOM Fire</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
+  <h1>DOOM Fire Algorithm</h1>
   <div id="fireCanvas"></div>
+  <div id="optionsButtons">
+    <input type="button" value="Fire -" onclick="lowTheFire()">
+    <input type="button" value="Fire +" onclick="riseTheFire()">
+    <input type="button" value="Toggle Wind" onclick="toggleFireDirection()">
+  </div>
   <script src="Fire.js"></script>
 </body>
+
 </html>
